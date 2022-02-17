@@ -5,3 +5,8 @@ February 16th, 5:00 P.M.
 1. I am going to set up the project files and maybe start writing some pseudocode for the project.
 2. I know how to do all of the above.
 3. I am not sure how to implement all of the ideas in the project in an efficient way yet.
+
+February 16th, 5:30 P.M.
+1. I am going to keep working on the pseudocode.
+2. I know how to do most of the functions in the project.
+3. I am not sure how to do a menu that can be returned to after getting the matrices, or what happens if the other two options are picked without matrices selected.

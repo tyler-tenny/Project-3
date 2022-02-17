@@ -1,0 +1,26 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int Menu(int& choice);
+void GetMatrices(float matrix1[][], float matrix2[][]);
+void Multiply(float matrix1[][], float matrix2[][], float matrix3[][]);
+void Add(float matrix1[][], float matrix2[][], float matrix3[][]);
+void Results(float matrix1[][], float matrix2[][], float matrix3[][]);
+
+if we want the results to output in a fancy way, we can do:
+
+int Menu(int& choice);
+void GetMatrices(float matrix1[][], float matrix2[][]);
+void Multiply(float matrix1[][], float matrix2[][], float matrix3[][]);
+void Add(float matrix1[][], float matrix2[][], float matrix3[][]);
+void Results(float matrix1[][], float matrix2[][], float matrix3[][], int& choice);
+
+choice can be used to determine if the equation was addition or multiplication, so we can output "(matrix1)" + or * "(matrix2) = (matrix3)"
+
+int main()
+{
+	int choice = 0;
+	Menu(choice);
+	float matrix1[3][3], matrix2[3][3], matrix3[3][3];
