@@ -1,13 +1,15 @@
-// project3.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Code by Brandon Austin ( brandon.austin@oit.edu ) 
+// and Tyler Tenny ( tyler.tenny@oit.edu )
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Commit test";
-    std::cout << "\nFetch Test";
+    cout << "Hello World!\n";
+    cout << "Commit test";
+    cout << "\nFetch Test";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
