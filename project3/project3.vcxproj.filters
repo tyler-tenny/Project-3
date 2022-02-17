@@ -19,4 +19,11 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Pseudocode.txt" />
+    <Text Include="Project Meetings.txt" />
+    <Text Include="Agile Questions.txt" />
+    <Text Include="Runs.txt" />
+    <Text Include="Testing Plan.txt" />
+  </ItemGroup>
 </Project>

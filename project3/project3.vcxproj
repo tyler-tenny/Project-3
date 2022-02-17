@@ -141,6 +141,13 @@
   <ItemGroup>
     <ClCompile Include="project3.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Agile Questions.txt" />
+    <Text Include="Project Meetings.txt" />
+    <Text Include="Pseudocode.txt" />
+    <Text Include="Runs.txt" />
+    <Text Include="Testing Plan.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
