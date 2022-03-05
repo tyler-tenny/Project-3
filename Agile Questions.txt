@@ -1,4 +1,18 @@
 Brandon
+February 18th, 1:15 PM
+1. Writing the basic code for the menu choices
+2. We've done this multiple times before, so I have a good grip on it
+3. N/A
+
+February 18th, 1:45 PM
+1. Adding matrices and printing results
+2. Using simple for loops to add arrays
+3. Printing results cleanly might be interesting
+
+February 18th, 2:15 PM
+1. Multiplying matrices, fixing bugs
+2. Using for loops similarly to adding function
+3. The formula for multiplying matrices is a little confusing
 
 Tyler
 February 16th, 5:00 P.M.
