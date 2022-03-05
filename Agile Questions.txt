@@ -10,3 +10,8 @@ February 16th, 5:30 P.M.
 1. I am going to keep working on the pseudocode.
 2. I know how to do most of the functions in the project.
 3. I am not sure how to do a menu that can be returned to after getting the matrices, or what happens if the other two options are picked without matrices selected.
+
+March 5th
+1. We are going to complete the project.
+2. I know most of how to do what we're going to do.
+3. I am not sure exactly how to properly output the matrices in a satisfying way.
