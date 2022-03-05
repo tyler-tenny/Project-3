@@ -1,0 +1,120 @@
+Please enter your first 3x3 matrix in left-to-right, top-to-bottom order. Hit enter after each number:
+
+Row 1, Column 1: 1
+Row 1, Column 2: 2
+Row 1, Column 3: 3
+Row 2, Column 1: 4
+Row 2, Column 2: 5
+Row 2, Column 3: 6
+Row 3, Column 1: 7
+Row 3, Column 2: 8
+Row 3, Column 3: 9
+
+Please enter your second 3x3 matrix in left-to-right, top-to-bottom order. Hit enter after each number:
+
+Row 1, Column 1: 1
+Row 1, Column 2: 2
+Row 1, Column 3: 3
+Row 2, Column 1: 4
+Row 2, Column 2: 5
+Row 2, Column 3: 6
+Row 3, Column 1: 7
+Row 3, Column 2: 8
+Row 3, Column 3: 9
+
+Please select an option from the menu below:
+
+        (1): Enter new matrices
+        (2): Multiply matrices
+        (3): Add matrices
+
+Choice: 2
+
+         1         2         3                   1         2         3                  30        36        42
+         4         5         6         *         4         5         6         =        66        81        96
+         7         8         9                   7         8         9                 102       126       150
+
+Repeat program? (y/n): y
+
+Please select an option from the menu below:
+
+        (1): Enter new matrices
+        (2): Multiply matrices
+        (3): Add matrices
+
+Choice: 3
+
+         1         2         3                   1         2         3                   2         4         6
+         4         5         6         +         4         5         6         =         8        10        12
+         7         8         9                   7         8         9                  14        16        18
+
+Repeat program? (y/n):
+y
+
+Please select an option from the menu below:
+
+        (1): Enter new matrices
+        (2): Multiply matrices
+        (3): Add matrices
+
+Choice: 1
+
+
+Please enter your first 3x3 matrix in left-to-right, top-to-bottom order. Hit enter after each number:
+
+Row 1, Column 1: 9
+Row 1, Column 2: 8
+Row 1, Column 3: 7
+Row 2, Column 1: 6
+Row 2, Column 2: 5
+Row 2, Column 3: 4
+Row 3, Column 1: 3
+Row 3, Column 2: 2
+Row 3, Column 3: 1
+
+Please enter your second 3x3 matrix in left-to-right, top-to-bottom order. Hit enter after each number:
+
+Row 1, Column 1: 9
+Row 1, Column 2: 8
+Row 1, Column 3: 7
+Row 2, Column 1: 6
+Row 2, Column 2: 5
+Row 2, Column 3: 4
+Row 3, Column 1: 3
+Row 3, Column 2: 2
+Row 3, Column 3: 1
+
+Repeat program? (y/n):
+y
+
+Please select an option from the menu below:
+
+        (1): Enter new matrices
+        (2): Multiply matrices
+        (3): Add matrices
+
+Choice: 2
+
+         9         8         7                   9         8         7                 150       126       102
+         6         5         4         *         6         5         4         =        96        81        66
+         3         2         1                   3         2         1                  42        36        30
+
+Repeat program? (y/n): y
+
+Please select an option from the menu below:
+
+        (1): Enter new matrices
+        (2): Multiply matrices
+        (3): Add matrices
+
+Choice: 3
+
+         9         8         7                   9         8         7                  18        16        14
+         6         5         4         +         6         5         4         =        12        10         8
+         3         2         1                   3         2         1                   6         4         2
+
+Repeat program? (y/n): n
+
+C:\Users\tyler\source\repos\Project-3\x64\Debug\project3.exe (process 21432) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
