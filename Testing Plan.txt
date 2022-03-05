@@ -1,0 +1,3 @@
+We plan to test this program by entering 2 matrices and attempting multiplication and addition with both of them. We will then enter new matrices
+within the same instance of the program and attempt multiplication and division on them as well. Additional cases such as decimals and negative 
+numbers will be tested as well.
