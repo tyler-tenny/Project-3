@@ -19,17 +19,20 @@ int main()
     char loop = 'y';
     float matrix1[SIZE][SIZE], matrix2[SIZE][SIZE], matrix3[SIZE][SIZE];
     
+    // Get initial matrices
     GetMatrices(matrix1, matrix2);
 
     do
     {
         Menu(matrix1, matrix2, matrix3);
 
+        // Allow program looping
         cout << endl << "Repeat program? (y/n): ";
         cin >> loop;
     } while (tolower(loop) == 'y');
 }
 
+// Display menu and process choices
 void Menu(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE], float matrix3[SIZE][SIZE])
 {
     int choice;
@@ -66,6 +69,7 @@ void Menu(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE], float matrix3[SI
     }
 }
 
+// Get user input for both matrices
 void GetMatrices(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE])
 {
     cout << "Please enter your first 3x3 matrix in left-to-right, top-to-bottom order. Hit enter after each number: " << endl << endl;
@@ -91,6 +95,7 @@ void GetMatrices(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE])
     }
 }
 
+// Multiply matrices and store in new matrix
 void Multiply(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE], float matrix3[SIZE][SIZE])
 {
     for (int r = 0; r < SIZE; r++)
@@ -100,6 +105,7 @@ void Multiply(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE], float matrix
     }
 }
 
+// Add matrices and store in new matrix
 void Add(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE], float matrix3[SIZE][SIZE])
 {
     for (int r = 0; r < SIZE; r++)
@@ -109,6 +115,7 @@ void Add(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE], float matrix3[SIZ
     }
 }
 
+// Print all 3 matrices as well as operation used
 void Results(float matrix1[SIZE][SIZE], float matrix2[SIZE][SIZE], float matrix3[SIZE][SIZE], char symbol)
 {
     for (int r = 0; r < SIZE; r++)
