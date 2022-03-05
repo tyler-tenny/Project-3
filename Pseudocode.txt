@@ -1,26 +1,17 @@
-#include <iostream>
-#include <fstream>
+FUNCTIONS:
+	DisplayMenu
+		- Show menu and prompt user for choice
+			- Options: GetMatrices, AddMatrices AND PrintResults, MultiplyMatrices AND PrintResults
+	GetMatrices
+		- Get user input for matrix1 and matrix2
+	AddMatrices
+		- Add matrix1 and matrix2, store results in matrix3
+	MultiplyMatrices
+		- Multiply matrix1 and matrix2, store results in matrix3
+	PrintResults
+		- Print matrix1, operator symbol used, matrix2, '=', and matrix3
 
-using namespace std;
-
-int Menu(int& choice);
-void GetMatrices(float matrix1[][], float matrix2[][]);
-void Multiply(float matrix1[][], float matrix2[][], float matrix3[][]);
-void Add(float matrix1[][], float matrix2[][], float matrix3[][]);
-void Results(float matrix1[][], float matrix2[][], float matrix3[][]);
-
-if we want the results to output in a fancy way, we can do:
-
-int Menu(int& choice);
-void GetMatrices(float matrix1[][], float matrix2[][]);
-void Multiply(float matrix1[][], float matrix2[][], float matrix3[][]);
-void Add(float matrix1[][], float matrix2[][], float matrix3[][]);
-void Results(float matrix1[][], float matrix2[][], float matrix3[][], int& choice);
-
-choice can be used to determine if the equation was addition or multiplication, so we can output "(matrix1)" + or * "(matrix2) = (matrix3)"
-
-int main()
-{
-	int choice = 0;
-	Menu(choice);
-	float matrix1[3][3], matrix2[3][3], matrix3[3][3];
+MAIN:
+	GetMatrices
+	DisplayMenu
+	Prompt user to repeat program

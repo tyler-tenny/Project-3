@@ -1,0 +1,17 @@
+DIVISION OF LABOR -
+
+Brandon:
+	Pseudocode
+
+Tyler:
+	Structure Chart
+	Testing Plan
+	Run Results
+
+Both:
+	Code
+
+DEFENSE -
+	Structure Chart and Pseudocode were both about the same amount of work. 
+	Testing plan and run results were easy and didn't take much time.
+	Code was worked on collaboratively in a VS Live Share 
